@@ -1,0 +1,5 @@
+.intro {
+    max-width: calc((100vw - 320px)/(1280 - 320)*(984 - 288) + 288px);
+    margin-bottom: 92px;  
+}
+

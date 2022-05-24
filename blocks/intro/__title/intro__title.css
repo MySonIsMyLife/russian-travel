@@ -1,0 +1,7 @@
+.intro__title {
+    font-weight: 900;
+    font-size: calc((100vw - 320px)/(1280 - 320)*(52 - 32) + 32px);
+    line-height: 1.1;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
