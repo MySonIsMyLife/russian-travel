@@ -1,5 +1,5 @@
 .header {
-    max-width: calc((100vw - 320px)/(1280 - 320)*(1184 - 288) + 288px); 
+    max-width: calc((100vw - 320px)/(1280 - 320)*(1184 - 288) + 288px);
     margin: 0 auto 56px;
     padding: 28px 48px 0 48px;
     display: flex;
