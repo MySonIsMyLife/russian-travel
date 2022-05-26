@@ -1,7 +1,7 @@
 .place__paragraph {
     grid-area: paragraph;
     font-weight: normal;
-    font-size: calc((100vw - 320px)/(1280 - 320)*(18 - 16) + 16px);
+    font-size: 18px;
     margin: 26px 0 0 0;
     padding: 0;
     line-height: 1.63;
@@ -21,5 +21,11 @@
     .place__paragraph:first-of-type {
         margin-left: calc((100vw - 320px)/(768 - 320)*(24 - 16) + 16px);
         margin-right: calc((100vw - 320px)/(768 - 320)*(24 - 16) + 16px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .place__paragraph {
+        font-size: 16px;
     }
 }

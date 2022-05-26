@@ -1,9 +1,8 @@
 .photo-grid {
-    max-width: calc((100vw - 320px)/(1280 - 320)*(1184 - 288) + 288px);
+    max-width: 1184px;
     display: grid;
-    margin: 0 auto;
+    margin: 0 auto 92px;
     padding: 0;
-    margin-bottom: 92px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
@@ -23,6 +22,7 @@
         max-width: calc((100vw - 768px)/(1024 - 768)*(928 - 720) + 720px);
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
     }
 }
 

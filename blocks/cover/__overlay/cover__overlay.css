@@ -3,12 +3,17 @@
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
+    object-fit: cover;
     max-width: 100%;
-    height: 100%;
+    width: 100%;
+    min-height: 740px;
     position: relative;
     z-index: 0;
-    overflow: hidden;
     text-decoration: none;
+    background: url(../../../images/cover_trains.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cover__overlay:before {
@@ -20,9 +25,27 @@
     opacity: .3;
     z-index: -1;
     transition: opacity 200ms ease-in-out;
-    background-color: rgba(0,0,0,1);
+    background-color: #2A2C2F;
 }
 
 .cover__overlay:hover::before {
     opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
 }

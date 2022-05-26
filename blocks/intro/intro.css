@@ -1,5 +1,24 @@
 .intro {
-    max-width: calc((100vw - 320px)/(1280 - 320)*(984 - 288) + 288px);
-    margin-bottom: 92px;  
+    max-width: 984px;
+    margin: 0 auto 92px;  
 }
 
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: calc(100% - 48px * 2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: calc(100% - 24px * 2);
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .intro {
+        max-width: calc(100% - 16px * 2);   
+        margin-bottom: 64px;    
+    }
+}
