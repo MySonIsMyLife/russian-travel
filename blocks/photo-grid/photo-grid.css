@@ -31,5 +31,6 @@
         max-width: calc((100vw - 320px)/(768 - 320)*(720 - 288) + 288px);
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
+        margin-bottom: 64px;
     }
 }

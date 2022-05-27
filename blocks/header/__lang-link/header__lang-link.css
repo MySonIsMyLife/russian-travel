@@ -5,6 +5,11 @@
     margin: 0;
     color: #FFFFFF;
     text-decoration-line: none;
+    transition: .5s linear .2s;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 400px) {
